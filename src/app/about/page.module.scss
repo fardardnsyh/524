@@ -1,0 +1,35 @@
+.about {
+	color: var(--text-color);
+
+	.title {
+		margin-top: 2rem;
+		font-size: 2rem;
+		margin-bottom: 3rem;
+		filter: opacity(0.8);
+	}
+
+	.bio {
+		font-weight: 300;
+	}
+
+	.bio,
+	.additionalLinks {
+		margin-bottom: 1rem;
+	}
+
+	.additionalLinks {
+		margin-top: 1rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.about {
+		// background: rgba(0, 0, 255, 0.271);
+	}
+}
+
+@media (min-width: 769px) {
+	.about {
+		// background: rgba(128, 0, 128, 0.273);
+	}
+}
